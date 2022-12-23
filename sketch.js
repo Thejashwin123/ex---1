@@ -9,9 +9,9 @@ roadimages=loadImage("ASSERTS/ROADIMAGES.png")
 enemyimages=loadImage("/ASSERTS/TANKER/ENEMY.png")
 
 
-gun1img=loadImage("/ASSERTS/TANKER/GUN1.png")
-gun2img=loadImage("/ASSERTS/TANKER/GUN2.png")
-gun3img=loadImage("/ASSERTS/TANKER/GUN3.png")
+gun1img=loadImage("/ASSERTS/TANKER/TANKER-1/RIGHT-T-1.png")
+gun2img=loadImage("/ASSERTS/TANKER/TANKER-2/RIGHT-T-2.png")
+gun3img=loadImage("/ASSERTS/TANKER/TANKER-3/RIGHT-T-3.png")
 
 
 }
@@ -28,9 +28,9 @@ road.scale=1.5
 playbutton=createImg("play.png")
 playbutton.position(width/4,height/2)
 
-gun1=createImg("/ASSERTS/TANKER/GUN1.png")
-gun2=createImg("/ASSERTS/TANKER/GUN2.png")
-gun3=createImg("/ASSERTS/TANKER/GUN3.png")
+gun1=createImg("/ASSERTS/TANKER/TANKER-1/RIGHT-T-1.png")
+gun2=createImg("/ASSERTS/TANKER/TANKER-2/RIGHT-T-2.png")
+gun3=createImg("/ASSERTS/TANKER/TANKER-3/RIGHT-T-3.png")
 
 
 
@@ -208,3 +208,6 @@ function spawnenemies(){
         enemyGroup.add(enemies)
     }
 }
+
+
+
